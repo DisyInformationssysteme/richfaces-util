@@ -5,6 +5,13 @@
   <artifactId>richfaces-util</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>disy.internal-snapshots</id>
+      <url>${disy.internal-snapshots.deploy.url}</url>
+      <uniqueVersion>false</uniqueVersion>
+    </snapshotRepository>
+  </distributionManagement>
   <build>
     <plugins>
       <plugin>
